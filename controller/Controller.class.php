@@ -60,6 +60,8 @@ class Controller
         return OpsActions::executePostCommit();
       case '/log-upload':
         return OpsActions::executeLogUpload();
+      case '/analytics-info':
+        return OpsActions::getAnalyticsInfo();
       case '/list-subscribe':
         return MailActions::executeListSubscribe();
       case '/press-kit.zip':

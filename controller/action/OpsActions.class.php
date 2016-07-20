@@ -67,4 +67,11 @@ class OpsActions extends Actions
 
     return [null, []];
   }
+
+  public static function getAnalyticsInfo()
+  {
+      $url = 'https://api.segment.com/v1';
+      $write_key = Config::get('segment_write_key');
+      return json_encode(['url'=>$url, 'write_key'=>$write_key]);
+  }
 }
