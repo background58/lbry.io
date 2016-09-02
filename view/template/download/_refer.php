@@ -35,7 +35,7 @@
   }
   else
   {
-    echo 'Wow! You are too good at this. Please contact us at ' . Config::HELP_CONTACT_EMAIL . ' to make sure we can count all of these. We will also stop sending you an email for each referral, but you can always check back here.';
+    echo 'Wow! Ești prea bun la asta. Vă rugăm să ne contactați la ' . Config::HELP_CONTACT_EMAIL . ' pentru a ne asigura că putem conta toate acestea. Ne vom opri , de asemenea, să vă trimitem un e-mail pentru fiecare sesizare , dar puteți verifica mereu înapoi aici.';
   }
 ?>
 </p>
