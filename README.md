@@ -2,14 +2,14 @@
 
 The [lbry.io](https://lbry.io) website.
 
-## Running lbry.io
+## Rulează lbry.io
 
-It's very easy to have lbry.io running locally:
+Este foarte ușor să ai lbry.io rulat la nivel local:
 
-- Install PHP7
-- Checkout the project
-- Run `./dev.sh` from the project root
-- Access `localhost:8000` in your browser
+- Instalează PHP7
+- Verifică proiectul
+- Rulează `./dev.sh` din rădăcina proiectului
+- Accesează `localhost:8000` in  browser tău .
 
 To run remotely, simply install PHP and configure Apache or your server of choice to serve `web/index.php`.
 
