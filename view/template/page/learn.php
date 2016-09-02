@@ -38,7 +38,7 @@
             </div>
             <div class="span6">
               <h3>{{learn.nerd}}</h3>
-              <p>LBRY is 100% open source in the <a class="link-primary" href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">Bazaar tradition</a>.</p>
+              <p>LBRY este 100 % sursă deschisa în <a class="link-primary" href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">Bazaar tradition</a>.</p>
               <?php echo View::render('social/_listDev') ?>
             </div>
           </div>
