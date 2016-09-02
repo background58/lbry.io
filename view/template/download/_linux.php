@@ -13,7 +13,7 @@
   </p>
   <div class="meta">
     {{download.works}}
-    Prefer to build from source? Go <a href="https://github.com/lbryio/lbry" class="link-primary">here</a>.
+    Preferi să construiești de la sursa? Dute <a href="https://github.com/lbryio/lbry" class="link-primary">aici</a>.
   </div>
 </div>
 
