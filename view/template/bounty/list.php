@@ -1,22 +1,22 @@
-<?php Response::setMetaDescription('See upcoming LBRY projects and earn bounties for completing or assisting.') ?>
+<?php Response::setMetaDescription('Vezi toate proiectele viitoare LBRY și câștiga recompense pentru completarea sau asistarea lor .') ?>
 <?php NavActions::setNavUri('/learn') ?>
 <?php echo View::render('nav/_header', ['isDark' => false]) ?>
 <main>
   <div class="hero hero-quote hero-img hero-img-short spacer1" style="background-image: url(/img/gold-piles.jpg)">
     <div class="hero-content-wrapper">
       <div class="hero-content text-center">
-        <h1 class="cover-title">LBRY Bounties</h1>
-        <h2 class="cover-subtitle">Earn money for building a better internet.</h2>
+        <h1 class="cover-title">Recompense LBRY</h1>
+        <h2 class="cover-subtitle">Câștigă bani pentru construirea unui Internet mai bun.</h2>
       </div>
     </div>
   </div>
   <section class="content content-light">
-    <h3>Bounties</h3>
-    <p>Complete challenges and earn LBRY Credits. <a class="link-primary" href="/faq/bounties">Learn more</a>.</p>
+    <h3>Recompense</h3>
+    <p>Completează provocări și câștiga Credite LBRY. <a class="link-primary" href="/faq/bounties">Află mai multe</a>.</p>
     <form method="get" action="/bounty" id="bounty-filter-form">
       <div class="clearfix">
         <div class="form-row align-left" style="margin-right: 10px">
-          <label>Category</label>
+          <label>Categorie</label>
           <?php echo View::render('form/_select', [
               'name' => 'category',
               'choices' => $categories,
@@ -24,7 +24,7 @@
           ]) ?>
         </div>
         <div class="form-row align-left">
-          <label>Status</label>
+          <label>Stare</label>
           <select name="status">
             <?php foreach($statuses as $statusVal => $statusLabel): ?>
               <option value="<?php echo $statusVal ?>" <?php echo $selectedStatus == $statusVal ? 'selected="selected"' : '' ?>><?php echo $statusLabel ?></option>
