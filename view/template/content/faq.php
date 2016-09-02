@@ -6,7 +6,7 @@
     <h1>{{page.faq.header}}</h1>
     <form method="get" action="/faq" id="faq-filter-form">
       <div class="form-row">
-        <label>Category</label>
+        <label>Categorie</label>
         <?php echo View::render('form/_select', [
           'name' => 'category',
           'choices' => $categories,
