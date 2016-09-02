@@ -10,8 +10,8 @@
         <?php echo View::render('download/_betaNotice') ?>
         <?php if (Session::get(Session::KEY_PREFINER_USED_CUSTOM_CODE)): ?>
           <div class="notice notice-info spacer1">
-            It looks like you may have been invited via a custom code.
-            <strong>If so, please check your email for a single-use code to claim credits after installing.</strong>
+            Se pare că este posibil să fi fost invitat printr-un cod personalizat .
+            <strong>Daca e asa ,vă rugăm să verificați e-mail-ul pentru codul de unică folosință pentru a solicita creditele după instalarea.</strong>
           </div>
         <?php endif ?>
         <?php echo $downloadHtml ?>
