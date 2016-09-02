@@ -12,9 +12,9 @@
       <?php endif ?>
 
       <?php if (Session::get(Session::KEY_PREFINERY_USER_ID)): ?>
-        <h3>You're On The List</h3>
-        <p>We pull thousands of people off the list regularly.</p>
-        <p>The longer you are on the list and the more people you invite, the sooner you will be invited.</p>
+        <h3>Ești pe listă</h3>
+        <p>Noi scoatem mii de oameni de pe lista cu regularitate.</p>
+        <p>Cu cât vă aflați pe lista mai mult și cu cât mai invitați multe persoane , cu atât mai repede vei fi invitat .</p>
         <?php echo View::render('download/_refer') ?>
       <?php else: ?>
         <p>{{download.signup}}</p>
