@@ -5,7 +5,7 @@
   <div class="post-content">
     <div class="meta">
       <br/>
-      <a href="/bounty" class="link-primary">« Back to All Bounties</a>
+      <a href="/bounty" class="link-primary">« Înpoi la toate recompense</a>
     </div>
     <section class="spacer2">
       <h1><?php echo htmlentities($metadata['title']) ?></h1>
@@ -26,17 +26,17 @@
     </section>
     <section>
       <?php if ($metadata['status'] !== 'complete'): ?>
-        <h4>Claim This Bounty</h4>
+        <h4>Revendică această recompensă</h4>
         <div class="spacer1">
-          <a href="mailto:bounty@lbry.io?subject=<?php echo $metadata['title'] ?>" class="btn btn-alt">Claim Bounty</a>
+          <a href="mailto:bounty@lbry.io?subject=<?php echo $metadata['title'] ?>" class="btn btn-alt">Revendică Recompensă</a>
         </div>
-        <h4>Bounty Questions?</h4>
+        <h4>Întrebări Recompensă?</h4>
         <div class="spacer1">
-          <a href="/faq/bounties">Read the FAQ</a>
+          <a href="/faq/bounties">Citește FAQ</a>
         </div>
-        <h4>Want Live Help?</h4>
+        <h4>Doriți ajutor live?</h4>
         <div class="spacer1">
-          <a href="http://slack.lbry.io" class="link-primary">Join Our Chat</a>
+          <a href="http://slack.lbry.io" class="link-primary">Alăturați-vă chat-ului nostru</a>
         </div>
       <?php endif ?>
     </section>
